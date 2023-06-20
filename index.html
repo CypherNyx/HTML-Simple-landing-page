@@ -3,6 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <title>Student Bio</title>
+    <link rel="stylesheet" href="./assets/style.css" />
   </head>
 
   <body>
@@ -10,31 +11,33 @@
     <header>
       <h1>Student Bio</h1>
     </header>
-    <section class="biopic">
-      <h2>Dahlia Guido</h2>
+    <main>
+      <section class="lesson">
+        <h2>Dahlia Guido</h2>
 
-      <img
-        src="./assets/Dahlia_screenshot.png"
-        alt="Profile picture of Dahlia Guido"
-      />
+        <img
+          src="./assets/Dahlia_screenshot.png"
+          alt="Profile picture of Dahlia Guido"
+        />
 
-      <p style="width: 550px">
-        Howdy from Bryan Texas! My name is Dahlia, and I've always been
-        fascinated by web design and all things tech. I'm diving headfirst into
-        the world of front-end development and I'm eager to put my newfound
-        skills to the test and collaborate on exciting projects.Let's join
-        forces and make something amazing together!
-      </p>
-    </section>
+        <p style="width: 550px">
+          Howdy from Bryan Texas! My name is Dahlia, and I've always been
+          fascinated by web design and all things tech. I'm diving headfirst
+          into the world of front-end development and I'm eager to put my
+          newfound skills to the test and collaborate on exciting projects.Let's
+          join forces and make something amazing together!
+        </p>
+      </section>
+    </main>
     <section>
       <h2>Contact Info</h2>
 
       <ul>
-        <li>
+        <li id="email">
           <strong>Email: </strong
           ><a href="mailto: dguido.dev@gmail.com">dguido.dev@gmail.com</a>
         </li>
-        <li>
+        <li id="github">
           <strong>Github:</strong>
           <a
             href="https://github.com/CypherNyx"
@@ -43,7 +46,9 @@
             >CypherNyx</a
           >
         </li>
-        <li><strong>Portfolio:</strong> <a href="#">Coming Soon!</a></li>
+        <li id="portfolio">
+          <strong>Portfolio:</strong> <a href="#">Coming Soon!</a>
+        </li>
       </ul>
     </section>
   </body>
