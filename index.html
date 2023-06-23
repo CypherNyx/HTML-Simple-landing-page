@@ -1,37 +1,57 @@
 <!DOCTYPE html>
 <html lang="en-US">
-  <head>
-    <meta charset="UTF-8" />
-    <title>Aaron + Saphire RSVP</title>
-    <link rel="stylesheet" href="./assets/style.css" />
-  </head>
 
-  <body>
-    <!-- TODO: Write Your Code Below-->
-    <header>
-      <h1>Aaron + Saphire</h1>
-    </header>
-    <main>
-      <section class="lesson">
-        <h2>RSVP</h2>
+<head>
+  <meta charset="UTF-8" />
+  <title>Isabella + Andrew RSVP</title>
+  <link rel="stylesheet" href="./assets/style.css" />
+</head>
 
-        <img
-          src="./assets/wedding-vows-and-wedding-rings.jpg"
-          alt="wedding vows and wedding rings"
-        />
+<body>
+  <!-- TODO: Write Your Code Below-->
+  <header>
+    <h1>Isabella + Andrew</h1>
+    <nav>
+      <ul>
+        <li class="menu-item"><a href="#">Home</a></li>
+        <li class="menu-item"><a href="#">Gallery</a></li>
+        <li class="menu-item"><a href="#rsvp-form">RSVP Form</a></li>
+      </ul>
+    </nav>
+  </header>
+  <main>
+    <section class="intro">
+      <h2> You are invited! <!-- Mr and Mrs. Reeves EST. 2023--></h2>
+      <p>Come celebrate our big day on November 11th 2023 </p>
+      <img src="./assets/wedding-vows-and-wedding-rings.jpg" alt="wedding vows and wedding rings" />
 
-        <p style="width: 550px">
-          Kindly respond by <strong>October 25 2023</strong>
-        </p>
-      </section>
-    </main>
-    <section>
-      <h2>Contact Form </h2>
+      <p>
+        Kindly respond by <strong>October 25 2023</strong>
+      </p>
+    </section>
+    <section id="rsvp-form">
       <form>
-        
+        <h2>Let us know if you will join us</h2>
+
+        <p>
+          <label for="name">Full Name:</label>
+          <input type="text" id="name" name="name" required />
+        </p>
+        <p>
+          <label for="email">Email:</label>
+          <input type="email" id="email" name="email" required />
+        </p>
+        <p>
+          <label for="rsvp">Will you be attending?</label>
+          <select id="rsvp" name="rsvp">
+            <option value="yes">Joyfully Accept</option>
+            <option value="no">Regretfully Decline</option>
+          </select>
+        </p>
+        <p><button type="submit">RSVP</button></p>
       </form>
 
-     <!-- <ul>
+      <!-- <ul>
         <li id="email">
           <strong>Email: </strong
           ><a href="mailto: dguido.dev@gmail.com">dguido.dev@gmail.com</a>
@@ -50,14 +70,13 @@
         </li>
       </ul>-->
     </section>
-    <footer>
-      &copy; 2023. Landing page by
-      <a
-        href="https://github.com/CypherNyx"
-        title="Dahlia's Github"
-        target="_blank"
-        >Dahlia Guido</a
-      >
-    </footer>
-  </body>
+  </main>
+  <footer>
+    &copy; 2023. Landing page by
+    <a href="https://github.com/CypherNyx" title="Dahlia's Github" target="_blank">
+      Dahlia Guido
+    </a>
+  </footer>
+</body>
+
 </html>
