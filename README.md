@@ -1,6 +1,6 @@
 # RSVP Landing Page
 
-[Single Landing page for RSVP](https://cyphernyx.github.io/HTML-Simple-landing-page/)
+[Single Landing page for RSVP](https://cyphernyx.github.io/simple-rsvp-page/)
 
 ## Usage
 This repository provides a basic template for creating a simple landing page using HTML. It aims to provide a starting point for your projects or websites.
